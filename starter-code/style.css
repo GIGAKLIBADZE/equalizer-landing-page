@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif !important;
+    background-color: #FCFAF9;
+    background-image: url(./assets/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position-x: calc(100% + 165px);
+    background-position-y: -225px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    padding: 40px 24px 166px 24px;
+}
+
+.slogan {
+    width: 87.2%;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.455px;
+    color: #191826;
+    margin-top: 64px;
+}
+
+.about {
+    width: 87.2%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 20px;
+}
+
+.black-div {
+    width: 375px;
+    border-radius: 12px;
+    background-color: #191826;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mobile-phone {
+    width: 208.972px;
+    height: 430px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -98px;
+}
+
+.orange-div {
+    width: 375px;;
+    border-radius: 12px;
+    background-color: #FA7453;
+    position: relative;
+    margin-top: -45px;
+}
+
+.orange-text {
+    padding: 48px 36px 36px 37px;
+}
+
+.orange-bottom {
+    margin-left: 42px;
+    padding-bottom: 48px;
+}
+
+.premium {
+    width: 302px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #FCFAF9;
+}
+
+.offer {
+    width: 302px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-top: 12px;
+}
+
+.pay-details {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.price {
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #FCFAF9;
+}
+
+.month {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+}
+
+.ios-button {
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: #191826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 32px;
+    border: none;
+}
+
+.apple-icon {
+    width: 17.083px;
+    height: 20px;
+}
+
+.ios a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+.android-button {
+    width: 296px;
+    height: 61px;
+    border-radius: 12px;
+    background-color: #FCFAF9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+    border: none;
+}
+
+.android-icon {
+    width: 16.702px;
+    height: 20px;
+}
+
+.android a {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+
+.footer {
+    padding-top: 64px;
+    padding-bottom: 80px;
+    padding-right: 24px;
+}
+
+.logo-again {
+    width: 146.093px;
+    height: 32px;
+    display: block;
+    margin-left: 25.15px;
+}
+
+.contact-info {
+    width: 327px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.email {
+    font-weight: 700;
+}
+
+.social-networks {
+    display: flex;
+    gap: 15px;
+    margin-top: 64px;
+}
+
+.facebook-icon {
+    margin-left: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(./assets/bg-main-tablet.png), url(./assets/bg-pattern-1.svg);
+        background-position: calc(100% + 120px) -270px, 105% -40px;
+        background-size: auto, 265px;
+    }
+
+    .header {
+        padding-top: 62px; 
+        padding-left: 39px;
+        padding-bottom: 249px;
+        padding-right: 215px;
+    }
+
+    .slogan {
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727px;
+    }
+
+    .about {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    .black-div {
+        width: 696px;
+        height: 600px;
+        position: relative;
+    }
+
+    .mobile-phone {
+        width: 270.206px;
+        height: 556px;
+        left: 0;
+        transform: none;
+        margin-left: 64px;
+        margin-top: -138px;
+    }
+
+    .colors {
+        width: 250px;
+        margin-top: -30px;
+    }
+
+    .main-orange {
+        display: block;
+    }
+
+    .orange-div {
+        width: 399px;
+        margin-top: -450px;
+        margin-left: 239px;
+    }
+
+    .footer {
+        width: 100%;
+        padding-top: 87px;
+        padding-bottom: 85px;
+    }
+
+    .logo-again {
+        margin-left: 50px;
+    }
+     
+    .contact-info {
+        width: 366px;
+        margin-left: 49px;
+    }
+
+    .last-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .social-networks {
+        width: 100px;
+        height: 20px;
+        margin-top: 0;
+        margin-right: 39px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    body {
+        background-size: auto, 350px;
+        background-position: 10% -270px, 101% -40px;
+    }
+
+    .header {
+        padding-left: 165px;
+        padding-bottom: 321px;
+        padding-right: 450px;
+    }
+
+    .slogan {
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+
+    .about {
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    .black-div {
+        width: 1110px;
+    }
+
+    .mobile-phone {
+        width: 280px;
+        height: 606px;
+        margin-left: 102px;
+    }
+
+    .colors {
+        width: 350px;
+        margin-top: -60px;
+        margin-left: -170px;
+    }
+
+    .orange-div {
+        width: 446px;
+        margin-left: 569px;
+    }
+
+    .orange-text {
+        padding: 58px 54px 39px 59px;
+    }
+
+    .premium {
+        width: 333px;
+        font-size: 40px;
+        line-height: 52px;
+    }
+
+    .offer {
+        width: 333px;
+        font-size: 20px;
+        line-height: 34px;
+        margin-top: 22px;
+    }
+
+    .orange-bottom {
+        margin-left: 54px;
+    }
+
+    .ios-button {
+        width: 333px;
+    }
+
+    .android-button {
+        width: 333px;
+    } 
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        max-width: 1110px;
+        align-items: baseline;
+    }
+ 
+    .logo-again {
+        margin-left: 0px;
+    }
+
+    .last-details {
+        gap: 350px;
+    }
+
+    .contact-info {
+       margin-left: 138px;
+    }
+
+    .ios-button:hover {
+        cursor: pointer;
+        background-color: #66E2DC;
+    }
+
+    .android-button:hover {
+        cursor: pointer;
+        background-color: #FFB964;
+    }
+
+    .facebook-icon:hover {
+        cursor: pointer;
+        filter: invert(48%) sepia(96%) saturate(417%) hue-rotate(322deg) brightness(101%) contrast(96%);
+    }
+
+    .instagram-icon:hover {
+        cursor: pointer;
+        filter: invert(48%) sepia(96%) saturate(417%) hue-rotate(322deg) brightness(101%) contrast(96%);
+    }
+
+    .twitter-icon:hover {
+        cursor: pointer;
+        filter: invert(48%) sepia(96%) saturate(417%) hue-rotate(322deg) brightness(101%) contrast(96%);
+    }
+}
